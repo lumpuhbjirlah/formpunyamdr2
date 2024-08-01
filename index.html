@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Gweh</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<h1 style="text-align: center; background-color: skyblue;">Mohon Untuk Diisi Yah</h1>
+	<hr>
+	<form style="justify-content: center; text-align: center; font-size: 20px;" action="second.html">
+		<label for="namaLengkap">Nama Lengkap :</label>
+		<!--Nama Lengkap-->
+		<input type="text" id="namaLengkap" required>
+		<br>
+		<!--BirthDay-->
+		<label for="birthday">Tanggal Lahir :</label>
+		<input type="date" id="birthday" required>
+		<br>
+		<!--No.Telp-->
+		<label for="number">No. Hp:</label>
+		<input type="tel" id="number" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" required>
+		<br>
+		<!--Alamat Email-->
+		<label for="email">Alamat Email :</label>
+		<input type="email" id="email" required>
+		<br>
+		<!--Kelas-->
+		<label for="kelas">Kelas :</label>
+		<br>
+		<input type="checkbox" name="kelas">XI RPLG
+		<br>
+		<input type="checkbox" name="kelas">XI RITEL 1
+		<br>
+		<input type="checkbox" name="kelas">XI RITEL 2
+		<br>
+		<input type="checkbox" name="kelas">XI MPLB 1
+		<br>
+		<input type="checkbox" name="kelas">XI MPLB 2
+		<br>
+		<input type="checkbox" name="kelas">XI MPLB 3
+		<br>
+		<input type="checkbox" name="kelas">XI DKV
+		<br>
+		<input type="submit">
+	</form>
+	<footer style="text-align: center; background-color: skyblue;">
+		<p>&copy; 2024 mdrwannabebetter. Hak Cipta Dilindungi Undang-Undang.</p>
+	</footer>
+</body>
+</html>
